@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    background-color: rgb(93, 90, 86);
+}
+
+#jeu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 440px;
+    height: 440px;
+    margin: auto;
+}
+.carte{
+    border: 1px solid black;
+    box-shadow: 12px 12px 2px 1px rgba(1, 1, 20, 0.2);
+    height: 100px;
+    width: 100px;
+    color: white;
+    line-height: 100px;
+    font-size: 60px;
+    background-color: rgb(19, 7, 32);
+
+}
+#nb-coups{
+    font-size: 60px;
+}

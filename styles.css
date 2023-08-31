@@ -24,3 +24,7 @@ body{
 #nb-coups{
     font-size: 60px;
 }
+
+#recommencer{
+    visibility: hidden;
+}
